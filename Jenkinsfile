@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh './deploy_docker.sh'
+        sh 'echo "testings"'
       }
     }
 
